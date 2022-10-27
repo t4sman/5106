@@ -1,0 +1,92 @@
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #0f0f0f;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  width: 900px;
+  
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18.94px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.container_12 {
+  background-color: grey;
+  padding: 10px;
+  margin-top: -10px;
+}
+
+.title {
+  padding: 20px;
+}
+
+.menu  {
+  text-decoration: none;
+  margin-top: 10px;
+  padding: 0px;
+  font-size: 50px;
+  background-color: #333;
+  color: #ddd; 
+}
+
+.menu:hover {
+  background-color: #04AA6D;
+  color: #0f0f0f;
+}
+
+.titlebox {
+  font-size: 50px
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+
+.text {
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  background-color: black;
+  color: white;
+  font-size: 1em;
+  word-wrap: break-word;
+}
+.references {
+  background-color:black;
+}
+.ref {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  margin: 0px;
+  width: 800px;
+  font-size: 14px;
+}
+.reflink {
+  text-indent: 20px;
+}
